@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b577ouvopioqc"
-path="res://.godot/imported/road.png-d4936bb5cd829b8176ed4a172c58f717.ctex"
+uid="uid://ctrlcq3x64icx"
+path="res://.godot/imported/road.png-978c4b4bc9b1c066d77fc910b7b14f78.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://world/terrain/road.png"
-dest_files=["res://.godot/imported/road.png-d4936bb5cd829b8176ed4a172c58f717.ctex"]
+source_file="res://world/terrain/unused/road.png"
+dest_files=["res://.godot/imported/road.png-978c4b4bc9b1c066d77fc910b7b14f78.ctex"]
 
 [params]
 
