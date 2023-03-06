@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://ofwaoejiynj5"]
+
+[ext_resource type="Texture2D" uid="uid://c8i1c5dfofc7e" path="res://player/skin.png" id="1_kpy6q"]
+[ext_resource type="Script" path="res://player/player.gd" id="1_wx0et"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0ih5m"]
+radius = 8.0
+
+[node name="Player" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_wx0et")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_kpy6q")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_0ih5m")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+
+[node name="Pivot" type="Marker2D" parent="."]
