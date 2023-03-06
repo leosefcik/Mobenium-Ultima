@@ -2,6 +2,6 @@
 
 The ultimate Mobenium! A top-down 2D shooter.
 
-## Lore
+## Mobenium Lore
 
-Hehehe, mobenium
+A reimagining of [the original (Mobenium 2D on itch.io)](https://leosefcik.itch.io/mobenium-2d), Mobenium Ultima is **the** ultima... te top-down shooter.
