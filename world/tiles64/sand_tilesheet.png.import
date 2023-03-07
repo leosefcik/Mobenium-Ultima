@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dacobbaaq2jgf"
-path="res://.godot/imported/walls_tilesheet.png-dc7131e98bdb9e580ea4949c58db4e98.ctex"
+uid="uid://cknqclg8xfhpy"
+path="res://.godot/imported/sand_tilesheet.png-f4ad17b4230f8bad2b23f6d439ce4f14.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://world/terrain/walls_tilesheet.png"
-dest_files=["res://.godot/imported/walls_tilesheet.png-dc7131e98bdb9e580ea4949c58db4e98.ctex"]
+source_file="res://world/tiles64/sand_tilesheet.png"
+dest_files=["res://.godot/imported/sand_tilesheet.png-f4ad17b4230f8bad2b23f6d439ce4f14.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c300ye4sbqtjv"
-path="res://.godot/imported/grid_128.png-a25559085faec2aa26182ff20c64e4f1.ctex"
+uid="uid://didumywedsfu6"
+path="res://.godot/imported/grid_256.png-fbcad6f2de59aa005ff1ddc23429c469.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://world/terrain/grid_128.png"
-dest_files=["res://.godot/imported/grid_128.png-a25559085faec2aa26182ff20c64e4f1.ctex"]
+source_file="res://world/tiles64/grid_256.png"
+dest_files=["res://.godot/imported/grid_256.png-fbcad6f2de59aa005ff1ddc23429c469.ctex"]
 
 [params]
 

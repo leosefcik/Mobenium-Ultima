@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d8xnc3phe4ow"
-path="res://.godot/imported/road_tilesheet.png-1f0e0c709263051dea63e13dadf8d8e8.ctex"
+uid="uid://dbmnscm4quhxo"
+path="res://.godot/imported/road_tilesheet.png-31a5a639989a0b1fc6fe49ce738f3d9c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://world/terrain/road_tilesheet.png"
-dest_files=["res://.godot/imported/road_tilesheet.png-1f0e0c709263051dea63e13dadf8d8e8.ctex"]
+source_file="res://world/tiles64/road_tilesheet.png"
+dest_files=["res://.godot/imported/road_tilesheet.png-31a5a639989a0b1fc6fe49ce738f3d9c.ctex"]
 
 [params]
 

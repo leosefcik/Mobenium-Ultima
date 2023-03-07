@@ -16,6 +16,7 @@ Currently, the planned gamemodes include:
 
 ### Waves
 
+<<<<<<< Updated upstream
 The OG gamemode, now with mutliplayer!
 
 You and your trusty **tank** (and other people if present) are enjoying a nice evening in your new home. Destroyed and abandoned after the recent war between Soland and Ingor, you found a military base in the woods to repurpose and live in. It wasn't perfect, but it was far from civilization, free, and nobody cared.
@@ -31,3 +32,6 @@ You can **upgrade** your tank with the collected Mobenium and improve its abilit
 ### Deathmatch
 
 Fight your friends with your weapons of choice until the time runs out.
+=======
+fgg
+>>>>>>> Stashed changes

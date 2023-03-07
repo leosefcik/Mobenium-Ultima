@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://fvqwufpsgvxy"]
+
+[ext_resource type="FontFile" uid="uid://ce4c62qm61hpo" path="res://bgroveb.otf" id="1_a2jhf"]
+
+[resource]
+default_font = ExtResource("1_a2jhf")
+default_font_size = 20
