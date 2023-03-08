@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bd6lcoqte15w4"]
 
 [ext_resource type="TileSet" uid="uid://bmworqevhhaay" path="res://world/tiles64/tileset_64.tres" id="1_7d6gm"]
-[ext_resource type="TileSet" uid="uid://bi88ib26rocqp" path="res://world/tiles32/tileset_32.tres" id="2_0cwhk"]
+[ext_resource type="TileSet" uid="uid://b67dv1dx0wv2p" path="res://world/tiles32/tileset_32.tres" id="2_0cwhk"]
 
 [node name="TestingLevel" type="Node2D"]
 
