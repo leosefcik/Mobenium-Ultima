@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcrrdqnpeb13u"
-path="res://.godot/imported/wheatly.svg-410a58fa513be51cd95c624a9cfd4023.ctex"
+uid="uid://dxikxmcvhxc4r"
+path="res://.godot/imported/r.svg-58b795c6f33ebfed21e7f12fbff985b3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/flags/wheatly.svg"
-dest_files=["res://.godot/imported/wheatly.svg-410a58fa513be51cd95c624a9cfd4023.ctex"]
+source_file="res://images/flags/r.svg"
+dest_files=["res://.godot/imported/r.svg-58b795c6f33ebfed21e7f12fbff985b3.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ybrb4kphyf8w"
-path="res://.godot/imported/soland.svg-e3bdcfc33be1fd1ee95b2e1f351bdc82.ctex"
+path="res://.godot/imported/soland.svg-e0bcc7a1546216731cd275c298aaf874.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/soland.svg"
-dest_files=["res://.godot/imported/soland.svg-e3bdcfc33be1fd1ee95b2e1f351bdc82.ctex"]
+source_file="res://images/flags/soland.svg"
+dest_files=["res://.godot/imported/soland.svg-e0bcc7a1546216731cd275c298aaf874.ctex"]
 
 [params]
 
