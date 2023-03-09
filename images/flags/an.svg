@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="600mm"
+   height="300mm"
+   viewBox="0 0 600 300"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="oooo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.40036976"
+     inkscape:cx="1016.5603"
+     inkscape:cy="467.06825"
+     inkscape:window-width="1920"
+     inkscape:window-height="1166"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:45.0001;fill-opacity:1"
+       id="rect1564"
+       width="600"
+       height="300"
+       x="0"
+       y="0" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 0,0 H 100 L 0,99.999999 V 0"
+       id="path3178" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 200,99.999999 H 100 L 200,0 v 99.999999"
+       id="path3178-0" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 4.9999999e-7,99.999999 H 100 L 4.9999999e-7,199.99999 V 99.999999"
+       id="path3178-8" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 200,199.99999 H 100 L 200,99.999999 v 99.999991"
+       id="path3178-0-0" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 200,0 H 300 L 200,99.999999 V 0"
+       id="path3178-86" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 400,99.999999 H 300 L 400,0 v 99.999999"
+       id="path3178-0-1" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 200.00001,99.999999 H 300 L 200.00001,199.99999 V 99.999999"
+       id="path3178-8-2" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 400,199.99999 H 300 L 400,99.999999 v 99.999991"
+       id="path3178-0-0-3" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 400,4.5e-6 H 500 L 400,100 V 4.5e-6"
+       id="path3178-86-2" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 600,100 H 500 L 600,4.5e-6 V 100"
+       id="path3178-0-1-9" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 400.00001,100 H 500 L 400.00001,200 V 100"
+       id="path3178-8-2-4" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 600,200 H 500 L 600,100 v 100"
+       id="path3178-0-0-3-5" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M -4e-6,200.00001 H 100 L -4e-6,300 v -99.99999"
+       id="path3178-8-9" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 200,300 H 100 L 200,200.00001 V 300"
+       id="path3178-0-0-1" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 200.00001,200.00001 H 300 L 200.00001,300 v -99.99999"
+       id="path3178-8-2-9" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 400,300 H 300 L 400,200.00001 V 300"
+       id="path3178-0-0-3-2" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 400.00001,200.00001 H 500 l -99.99999,100 v -100"
+       id="path3178-8-2-4-2" />
+    <path
+       style="fill:#bb1d3b;fill-opacity:1;stroke:none;stroke-width:10.6066"
+       d="M 600,300.00001 H 500 l 100,-100 v 100"
+       id="path3178-0-0-3-5-4" />
+  </g>
+</svg>
