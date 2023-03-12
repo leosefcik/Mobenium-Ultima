@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="360"
+   height="600"
+   viewBox="0 0 360 600"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="soland_flag.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.0083333"
+     inkscape:cx="54.049587"
+     inkscape:cy="393.71901"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#388edc;stroke-width:75.5906;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+       id="rect1547"
+       width="360"
+       height="600"
+       x="0"
+       y="0" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:251.968;stroke-linecap:round;stroke-linejoin:round"
+       id="path2588"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="0"
+       sodipodi:cy="0"
+       sodipodi:r1="360"
+       sodipodi:r2="311.76917"
+       sodipodi:arg1="0"
+       sodipodi:arg2="0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 360,0 180,311.76915 H -180 L -360,0 l 180,-311.76915 360,0 z"
+       transform="matrix(0.3,0,0,0.3,180,300)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:75.5905;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2642"
+       width="108"
+       height="27"
+       x="125.99999"
+       y="447.53073" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:75.5905;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2642-2"
+       width="108"
+       height="27"
+       x="-474.53073"
+       y="166.5"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:75.5905;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2642-2-3"
+       width="108"
+       height="27"
+       x="-233.46925"
+       y="166.5"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:75.5905;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2642-2-3-2"
+       width="27"
+       height="27"
+       x="-233.46925"
+       y="166.5"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:75.5905;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2642-2-3-2-7"
+       width="27"
+       height="27"
+       x="-393.53073"
+       y="166.5"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:75.5905;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2642-4"
+       width="108"
+       height="27"
+       x="-42.44091"
+       y="188.99937"
+       transform="rotate(-45)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:75.5905;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2642-0"
+       width="108"
+       height="27"
+       x="188.99937"
+       y="-65.559059"
+       transform="rotate(45)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:75.5906;stroke-linecap:round;stroke-linejoin:round"
+       id="rect3451"
+       width="27"
+       height="27"
+       x="38.559059"
+       y="188.99937"
+       transform="rotate(-45)" />
+  </g>
+</svg>

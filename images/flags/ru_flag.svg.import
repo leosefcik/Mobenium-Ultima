@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cexge8bi772p4"
-path="res://.godot/imported/an.svg-7a0f3676dfbe48b910bb28f95ec5309f.ctex"
+uid="uid://k0wy02r8cwoy"
+path="res://.godot/imported/ru_flag.svg-ce6c80a192365785a2a48ab1b931a029.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/flags/an.svg"
-dest_files=["res://.godot/imported/an.svg-7a0f3676dfbe48b910bb28f95ec5309f.ctex"]
+source_file="res://images/flags/ru_flag.svg"
+dest_files=["res://.godot/imported/ru_flag.svg-ce6c80a192365785a2a48ab1b931a029.ctex"]
 
 [params]
 
@@ -32,6 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
+svg/scale=8.0
 editor/scale_with_editor_scale=false
 editor/convert_colors_with_editor_theme=false

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxikxmcvhxc4r"
-path="res://.godot/imported/r.svg-58b795c6f33ebfed21e7f12fbff985b3.ctex"
+uid="uid://jjemvhwtvle6"
+path="res://.godot/imported/southeastern_fistutedvitzestan_flag.svg-197edafb8a7c709560d7887772bebc87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/flags/r.svg"
-dest_files=["res://.godot/imported/r.svg-58b795c6f33ebfed21e7f12fbff985b3.ctex"]
+source_file="res://images/flags/southeastern_fistutedvitzestan_flag.svg"
+dest_files=["res://.godot/imported/southeastern_fistutedvitzestan_flag.svg-197edafb8a7c709560d7887772bebc87.ctex"]
 
 [params]
 
@@ -32,6 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
+svg/scale=8.0
 editor/scale_with_editor_scale=false
 editor/convert_colors_with_editor_theme=false

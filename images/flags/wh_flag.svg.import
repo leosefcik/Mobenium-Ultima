@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ybrb4kphyf8w"
-path="res://.godot/imported/soland.svg-e0bcc7a1546216731cd275c298aaf874.ctex"
+uid="uid://pnyue0afo2ln"
+path="res://.godot/imported/wh_flag.svg-33f930d335d9564badec621f040b9a77.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/flags/soland.svg"
-dest_files=["res://.godot/imported/soland.svg-e0bcc7a1546216731cd275c298aaf874.ctex"]
+source_file="res://images/flags/wh_flag.svg"
+dest_files=["res://.godot/imported/wh_flag.svg-33f930d335d9564badec621f040b9a77.ctex"]
 
 [params]
 
@@ -32,6 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
+svg/scale=8.0
 editor/scale_with_editor_scale=false
 editor/convert_colors_with_editor_theme=false

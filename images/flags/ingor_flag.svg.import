@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcx6xtps0eyud"
-path="res://.godot/imported/se_fistutedvitzestan.svg-3d5820fe5697899963e6a8c1b33516ab.ctex"
+uid="uid://kods3ppykcu3"
+path="res://.godot/imported/ingor_flag.svg-c68748d7b77262a7d5f7ef1dafc65f6b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/flags/se_fistutedvitzestan.svg"
-dest_files=["res://.godot/imported/se_fistutedvitzestan.svg-3d5820fe5697899963e6a8c1b33516ab.ctex"]
+source_file="res://images/flags/ingor_flag.svg"
+dest_files=["res://.godot/imported/ingor_flag.svg-c68748d7b77262a7d5f7ef1dafc65f6b.ctex"]
 
 [params]
 
@@ -32,6 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
+svg/scale=8.0
 editor/scale_with_editor_scale=false
 editor/convert_colors_with_editor_theme=false

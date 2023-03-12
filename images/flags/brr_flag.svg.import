@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6xdbf0jod36h"
-path="res://.godot/imported/ingor_construction.png-592a35c23a84d9ae5ebd2338d5c4dbbd.ctex"
+uid="uid://b6ox2qaxuct3f"
+path="res://.godot/imported/brr_flag.svg-fbfd393fa4b9c3c815748160503c0a62.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/ingor_construction.png"
-dest_files=["res://.godot/imported/ingor_construction.png-592a35c23a84d9ae5ebd2338d5c4dbbd.ctex"]
+source_file="res://images/flags/brr_flag.svg"
+dest_files=["res://.godot/imported/brr_flag.svg-fbfd393fa4b9c3c815748160503c0a62.ctex"]
 
 [params]
 
@@ -32,3 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=8.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

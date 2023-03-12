@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcrrdqnpeb13u"
-path="res://.godot/imported/wheatly.svg-410a58fa513be51cd95c624a9cfd4023.ctex"
+uid="uid://cpdaqnwtrrixo"
+path="res://.godot/imported/an_ra_flag.svg-a116e1b7c8a9d99ac9a5e94c8706e42a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/flags/wheatly.svg"
-dest_files=["res://.godot/imported/wheatly.svg-410a58fa513be51cd95c624a9cfd4023.ctex"]
+source_file="res://images/flags/an_ra_flag.svg"
+dest_files=["res://.godot/imported/an_ra_flag.svg-a116e1b7c8a9d99ac9a5e94c8706e42a.ctex"]
 
 [params]
 
@@ -32,6 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
+svg/scale=8.0
 editor/scale_with_editor_scale=false
 editor/convert_colors_with_editor_theme=false
