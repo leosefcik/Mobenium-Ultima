@@ -25,7 +25,5 @@ shape = SubResource("CircleShape2D_0ih5m")
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.5, 1.5)
 
-[node name="Pivot" type="Marker2D" parent="."]
-
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
 replication_config = SubResource("SceneReplicationConfig_o4vxe")

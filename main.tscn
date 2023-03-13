@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c2mr1f4q7id7x"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_5c2qo"]
-[ext_resource type="Theme" uid="uid://fvqwufpsgvxy" path="res://main_theme.tres" id="2_p0fa8"]
+[ext_resource type="PackedScene" uid="uid://b05nfhukonaps" path="res://uis/main_menu_ui.tscn" id="2_ok0g1"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_5c2qo")
@@ -9,73 +9,4 @@ metadata/_edit_horizontal_guides_ = [-1149.0]
 
 [node name="UILayer" type="CanvasLayer" parent="."]
 
-[node name="UI" type="Control" parent="UILayer"]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="Net" type="VBoxContainer" parent="UILayer/UI"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -123.0
-offset_top = -20.0
-offset_right = 123.0
-offset_bottom = 20.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="Options" type="HBoxContainer" parent="UILayer/UI/Net"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 0
-
-[node name="Label" type="Label" parent="UILayer/UI/Net/Options"]
-layout_mode = 2
-theme = ExtResource("2_p0fa8")
-text = "Direct:"
-
-[node name="Host" type="Button" parent="UILayer/UI/Net/Options"]
-layout_mode = 2
-theme = ExtResource("2_p0fa8")
-text = "Host"
-
-[node name="Connect" type="Button" parent="UILayer/UI/Net/Options"]
-layout_mode = 2
-theme = ExtResource("2_p0fa8")
-text = "Connect"
-
-[node name="Remote" type="LineEdit" parent="UILayer/UI/Net/Options"]
-layout_mode = 2
-theme = ExtResource("2_p0fa8")
-text = "localhost"
-
-[node name="Restart" type="Button" parent="UILayer/UI"]
-visible = false
-layout_mode = 1
-offset_right = 46.0
-offset_bottom = 31.0
-theme = ExtResource("2_p0fa8")
-text = "Restart"
-
-[node name="FPS" type="Label" parent="UILayer/UI"]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -40.0
-offset_bottom = 23.0
-grow_horizontal = 0
-theme = ExtResource("2_p0fa8")
-text = "FPS here lololol"
-horizontal_alignment = 2
-
-[connection signal="pressed" from="UILayer/UI/Net/Options/Host" to="." method="_on_host_pressed"]
-[connection signal="pressed" from="UILayer/UI/Net/Options/Connect" to="." method="_on_connect_pressed"]
-[connection signal="pressed" from="UILayer/UI/Restart" to="." method="_on_restart_pressed"]
+[node name="UI" parent="UILayer" instance=ExtResource("2_ok0g1")]

@@ -10,6 +10,8 @@ func _ready():
 	if DisplayServer.get_name() == "headless":
 		print("Automatically starting dedicated server.")
 		_on_host_pressed.call_deferred()
+	
+	get_node()
 
 func _process(delta):
 	$UILayer/UI/FPS.text = str(Engine.get_frames_per_second())
