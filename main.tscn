@@ -11,6 +11,13 @@ MainMenuUI = ExtResource("2_ok0g1")
 HostingUI = ExtResource("3_dq2gr")
 metadata/_edit_horizontal_guides_ = [-1149.0]
 
+[node name="World" type="Node" parent="."]
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("res://levels/train_map.tscn")
+spawn_path = NodePath("../World")
+spawn_limit = 1
+
 [node name="UILayer" type="CanvasLayer" parent="."]
 
 [node name="FPS" type="Label" parent="UILayer"]

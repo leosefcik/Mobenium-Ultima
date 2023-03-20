@@ -6,52 +6,51 @@ extends Node
 @export var MainMenuUI: PackedScene
 @export var HostingUI: PackedScene
 
-func _ready():
-	var i
-	i = MainMenuUI.instantiate()
-	UILayer.add_child(i)
-	
-#	multiplayer.server_relay = false
-#
-#	if DisplayServer.get_name() == "headless":
-#		print("Automatically starting dedicated server.")
-#		_on_host_pressed.call_deferred()
+const MAX_PLAYERS = 16
 
 func _process(delta):
+	# Show FPS
 	FPS.text = str(Engine.get_frames_per_second())
 
-#func _on_host_pressed():
-#	var peer = ENetMultiplayerPeer.new()
-#	peer.create_server(PORT)
-#	if peer.get_connection_status() == MultiplayerPeer.CONNECTION_DISCONNECTED:
-#		OS.alert("Failed to start multiplayer server.")
-#		return
-#	multiplayer.multiplayer_peer = peer
-#	start_game()
-#
-#func _on_connect_pressed():
-#	var txt : String = $UILayer/UI/Net/Options/Remote.text
-#	if txt == "":
-#		OS.alert("Need a remote to connect to.")
-#		return
-#	var peer = ENetMultiplayerPeer.new()
-#	peer.create_client(txt, PORT)
-#	if peer.get_connection_status() == MultiplayerPeer.CONNECTION_DISCONNECTED:
-#		OS.alert("Failed to start multiplayer client.")
-#		return
-#	multiplayer.multiplayer_peer = peer
-#	start_game()
-#
-#func start_game():
-#	$UILayer/UI/Net.hide()
-#	$UILayer/UI/Restart.show()
-#	var instance = train_map.instantiate()
-#	add_child(instance)
-#	instance = player.instantiate()
-#	$TrainMap.add_child(instance)
-#
-#func _on_restart_pressed():
-#	$TrainMap.queue_free()
-#	multiplayer.multiplayer_peer.close()
-#	$UILayer/UI/Net.show()
-#	$UILayer/UI/Restart.hide()
+func _ready():
+	# You can save bandwidth by disabling server relay and peer notifications.
+	multiplayer.server_relay = false
+
+	# Automatically start the server in headless mode.
+	if DisplayServer.get_name() == "headless":
+		print("Automatically starting dedicated server.")
+		host_server.call_deferred()
+	
+	# Start main menu
+	var i
+	i = HostingUI.instantiate()
+	UILayer.add_child(i)
+	i.host_server.connect(host_server)
+	i.join_server.connect(join_server)
+
+func host_server(port):
+	# Start as server.
+	var peer = ENetMultiplayerPeer.new()
+	peer.create_server(int(port), MAX_PLAYERS)
+	if peer.get_connection_status() == MultiplayerPeer.CONNECTION_DISCONNECTED:
+		OS.alert("Failed to start multiplayer server.")
+		return
+	multiplayer.multiplayer_peer = peer
+	start_game()
+
+
+func join_server(address, port):
+	# Start as client.
+	if address == "":
+		OS.alert("Need a remote to connect to.")
+		return
+	var peer = ENetMultiplayerPeer.new()
+	peer.create_client(address, int(port))
+	if peer.get_connection_status() == MultiplayerPeer.CONNECTION_DISCONNECTED:
+		OS.alert("Failed to start multiplayer client.")
+		return
+	multiplayer.multiplayer_peer = peer
+	start_game()
+
+func start_game():
+	print("g")
