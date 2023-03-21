@@ -10,6 +10,8 @@ A modern, better, cooler, fresher, hipper reimagining of the original [(Mobenium
 
 It's a **multiplayer/singleplayer** experience with multiple gamemodes, from a pseudo-story waves gamemode where you fight off waves of bots to a classic deathmatch one where you fight off your friends. Maybe a battle royale mode too. idk
 
+# Everything below this is WIP!
+
 ## Gamemodes
 
 Currently, the planned gamemodes include:
