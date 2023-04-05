@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://ofwaoejiynj5"]
+[gd_scene load_steps=6 format=3 uid="uid://ofwaoejiynj5"]
 
 [ext_resource type="Texture2D" uid="uid://c8i1c5dfofc7e" path="res://player/skin.png" id="1_kpy6q"]
 [ext_resource type="Script" path="res://player/player.gd" id="1_wx0et"]
+[ext_resource type="Script" path="res://player/PlayerInput.gd" id="3_153n7"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0ih5m"]
 radius = 8.0
@@ -25,5 +26,8 @@ shape = SubResource("CircleShape2D_0ih5m")
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.5, 1.5)
 
-[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+[node name="ServerSynchronizer" type="MultiplayerSynchronizer" parent="."]
 replication_config = SubResource("SceneReplicationConfig_gio02")
+
+[node name="PlayerInput" type="MultiplayerSynchronizer" parent="."]
+script = ExtResource("3_153n7")

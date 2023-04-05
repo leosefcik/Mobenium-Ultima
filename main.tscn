@@ -1,19 +1,21 @@
-[gd_scene load_steps=5 format=3 uid="uid://cq0ltitx6gimk"]
+[gd_scene load_steps=6 format=3 uid="uid://cq0ltitx6gimk"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_5c2qo"]
 [ext_resource type="PackedScene" uid="uid://d4f2cybtj0ndp" path="res://uis/main_menu_ui.tscn" id="2_ok0g1"]
 [ext_resource type="PackedScene" uid="uid://c8q4jvl86qcjg" path="res://uis/hosting_ui.tscn" id="3_dq2gr"]
 [ext_resource type="Theme" uid="uid://fvqwufpsgvxy" path="res://main_theme.tres" id="4_do8xx"]
+[ext_resource type="PackedScene" uid="uid://cvptrj17uijv2" path="res://uis/simple_ui.tscn" id="4_q0vku"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_5c2qo")
 MainMenuUI = ExtResource("2_ok0g1")
 HostingUI = ExtResource("3_dq2gr")
+SimpleUI = ExtResource("4_q0vku")
 metadata/_edit_horizontal_guides_ = [-1149.0]
 
 [node name="World" type="Node" parent="."]
 
-[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+[node name="LevelSpawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://levels/train_map.tscn")
 spawn_path = NodePath("../World")
 spawn_limit = 1

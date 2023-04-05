@@ -5,6 +5,9 @@ extends Node
 
 @export var MainMenuUI: PackedScene
 @export var HostingUI: PackedScene
+@export var SimpleUI: PackedScene
+
+@onready var world = $World
 
 const MAX_PLAYERS = 16
 
@@ -53,4 +56,14 @@ func join_server(address, port):
 	start_game()
 
 func start_game():
-	print("g")
+	#Set UI
+	$UILayer/HostingUI.queue_free()
+	UILayer.add_child(SimpleUI.instantiate())
+	
+	if multiplayer.is_server():
+		#Set level
+		change_level.call_deferred(load("res://levels/train_map.tscn"))
+		world.add_child(load("res://player/player.tscn").instantiate())
+
+func change_level(scene: PackedScene):
+	world.add_child(scene.instantiate())
